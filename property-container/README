@@ -1,0 +1,24 @@
+Property Container
+Software design pattern
+
+index.php - client (example) code that demonstrates iPropertyContainer interface, PropertyContainer class and AddressBook class use cases.
+PropertyContainer.png - Property Container diagram.
+
+Q&A websites
+"Property Container" design-pattern in-depth definition http://programmers.stackexchange.com/q/231274/119978
+"Property Container" design-pattern http://codereview.stackexchange.com/q/43485/36845
+
+--- program-output ---
+Last Name: Williams
+First Name: John
+Facebook: https://www.facebook.com/new.example
+Google+: https://plus.google.com/000000000000000000000/posts
+
+Last Name: White
+First Name: Linda
+Skype: example7
+LinkedIn: https://www.linkedin.com/in/example
+
+Key: [linkedin] Value: [https://www.linkedin.com/in/example] - Property deleted successfully!
+Caught exception: Key "linkedin" was not found...
+--- /program-output ---
